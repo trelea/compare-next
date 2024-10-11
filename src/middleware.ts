@@ -6,13 +6,7 @@ export default createMiddleware(routing);
 export const config = {
   // Match only internationalized pathnames
   matcher: [
-    "/",
-    "/home",
-    "/about",
-    "/contacts",
-    "/portofolio",
-    "/services",
-    "/thanks",
+    "/((?!api|_next/static|_next/image|favicon.ico).*)",
     "/(en|ro|ru)/:path*",
   ],
 };
