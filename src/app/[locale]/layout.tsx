@@ -1,15 +1,15 @@
-import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
-import type { Metadata } from "next";
-import "./globals.css";
-import { Loyout } from "@/components/_Loyout";
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import type { Metadata } from 'next';
+import '../globals.css';
+import { Loyout } from '@/components/_Loyout';
 
 export const metadata: Metadata = {
-  title: "ComPare",
-  description: "ComPare Best IT Solutions",
+  title: 'ComPare',
+  description: 'ComPare Best IT Solutions',
 };
 
-export default async function RootLayout({
+export default async function LocaleLayout({
   children,
   params: { locale },
 }: Readonly<{

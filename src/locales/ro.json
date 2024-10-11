@@ -11,7 +11,7 @@
     "social": "Social",
     "contacts": "Contacte",
     "copyright": "Toate drepturile sunt rezervate.",
-    "love": "Făcut cu <1></1> și <2></2> pentru clienții noștri."
+    "love": "Făcut cu <l1></l1> și <l2></l2> pentru clienții noștri."
   },
 
   "home": {
@@ -127,5 +127,15 @@
     "not_found": "Nicio țară găsită."
   },
 
-  "more": "Mai multe"
+  "more": "Mai multe",
+
+  "thanks": {
+    "p1": "Mulțumim că ați ales ComPare",
+    "p2": "în scurt timp vă vom contacta."
+  },
+
+  "_404_": {
+    "not": "Pagină indisponibilă.",
+    "home": "Acasă"
+  }
 }

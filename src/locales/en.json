@@ -11,7 +11,7 @@
     "social": "Social",
     "contacts": "Contacts",
     "copyright": "All rights reserved.",
-    "love": "Made with <1></1> and <2></2> for our clients."
+    "love": "Made with <l1></l1> and <l2></l2> for our clients."
   },
 
   "home": {
@@ -127,5 +127,14 @@
     "not_found": "No country found."
   },
 
-  "more": "more"
+  "more": "more",
+
+  "thanks": {
+    "p1": "Thank you for choosing ComPare",
+    "p2": "We will contact you shortly."
+  },
+  "_404_": {
+    "not": "Page unavailable.",
+    "home": "Home"
+  }
 }

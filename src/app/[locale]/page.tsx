@@ -1,5 +1,15 @@
-import { Button } from "@/components/ui/button";
+import { Hero } from '@/components/Hero';
+import { OurPlan } from '@/components/OurPlan';
+import { Projects } from '@/components/Projects';
+import { Services } from '@/components/Services';
 
 export default function Home() {
-  return <Button>Test Button</Button>;
+  return (
+    <>
+      <Hero />
+      <Services />
+      <OurPlan />
+      <Projects />
+    </>
+  );
 }

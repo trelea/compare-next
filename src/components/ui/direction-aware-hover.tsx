@@ -1,9 +1,10 @@
-"use client";
+'use client';
 
-import { useRef, useState } from "react";
+import { useRef, useState } from 'react';
 // import Image from "next/image";
-import { AnimatePresence, motion } from "framer-motion";
-import { cn } from "@/lib/utils";
+import { AnimatePresence, motion } from 'framer-motion';
+import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 export const DirectionAwareHover = ({
   imageUrl,
@@ -21,8 +22,8 @@ export const DirectionAwareHover = ({
   const ref = useRef<HTMLDivElement>(null);
 
   const [direction, setDirection] = useState<
-    "top" | "bottom" | "left" | "right" | string
-  >("left");
+    'top' | 'bottom' | 'left' | 'right' | string
+  >('left');
 
   const handleMouseEnter = (
     event: React.MouseEvent<HTMLDivElement, MouseEvent>
@@ -30,22 +31,22 @@ export const DirectionAwareHover = ({
     if (!ref.current) return;
 
     const direction = getDirection(event, ref.current);
-    console.log("direction", direction);
+    console.log('direction', direction);
     switch (direction) {
       case 0:
-        setDirection("top");
+        setDirection('top');
         break;
       case 1:
-        setDirection("right");
+        setDirection('right');
         break;
       case 2:
-        setDirection("bottom");
+        setDirection('bottom');
         break;
       case 3:
-        setDirection("left");
+        setDirection('left');
         break;
       default:
-        setDirection("left");
+        setDirection('left');
         break;
     }
   };
@@ -66,34 +67,34 @@ export const DirectionAwareHover = ({
       onMouseEnter={handleMouseEnter}
       ref={ref}
       className={cn(
-        "md:h-96 w-60 h-60 md:w-96 bg-transparent rounded-lg overflow-hidden group/card relative",
+        'md:h-96 w-60 h-60 md:w-96 bg-transparent rounded-lg overflow-hidden group/card relative',
         className
       )}
     >
-      <AnimatePresence mode="wait">
+      <AnimatePresence mode='wait'>
         <motion.div
-          className="relative h-full w-full"
-          initial="initial"
+          className='relative h-full w-full'
+          initial='initial'
           whileHover={direction}
-          exit="exit"
+          exit='exit'
         >
-          <motion.div className="group-hover/card:block hidden absolute inset-0 w-full h-full bg-black/40 z-10 transition duration-500" />
+          <motion.div className='group-hover/card:block hidden absolute inset-0 w-full h-full bg-black/40 z-10 transition duration-500' />
           <motion.div
             variants={variants}
-            className="h-full w-full relative bg-gray-50 dark:bg-black"
+            className='h-full w-full relative bg-gray-50 dark:bg-black'
             transition={{
               duration: 0.2,
-              ease: "easeOut",
+              ease: 'easeOut',
             }}
           >
-            <img
-              alt="image"
+            <Image
+              alt='image'
               className={cn(
-                "h-full w-full object-cover scale-[1.15]",
+                'h-full w-full object-cover scale-[1.15]',
                 imageClassName
               )}
-              width="1000"
-              height="3000"
+              width='1000'
+              height='3000'
               src={imageUrl}
             />
           </motion.div>
@@ -101,10 +102,10 @@ export const DirectionAwareHover = ({
             variants={textVariants}
             transition={{
               duration: 0.5,
-              ease: "easeOut",
+              ease: 'easeOut',
             }}
             className={cn(
-              "text-white absolute bottom-4 left-4 z-40",
+              'text-white absolute bottom-4 left-4 z-40',
               childrenClassName
             )}
           >
