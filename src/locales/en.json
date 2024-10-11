@@ -1,0 +1,131 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "portofolio": "Portfolio",
+    "aboutus": "About Us",
+    "contacts": "Contacts"
+  },
+
+  "footer": {
+    "social": "Social",
+    "contacts": "Contacts",
+    "copyright": "All rights reserved.",
+    "love": "Made with <1></1> and <2></2> for our clients."
+  },
+
+  "home": {
+    "intro": "If you have a business challenge that you want to address with a web solution, let us guide you through the options we can provide.",
+    "start": "Start Project",
+    "plans": "Our Goals",
+    "plans_desc": "We are involved in all stages of software development, providing effective and elegantly designed solutions to enhance your business's daily processes.",
+    "step1": "Planning",
+    "step1_desc": "In this phase, the project's objective is established, requirements are defined, and time and cost estimates are made. A detailed plan is created to guide the entire development process.",
+    "step2": "Requirements Analysis",
+    "step2_desc": "User and system requirements are collected and analyzed. This step involves interviews, surveys, and studies to understand exactly what the software needs to do and how it should function.",
+    "step3": "Design",
+    "step3_desc": "The system architecture and detailed software design are created. This includes designing the database structure, user interfaces, and the application's internal components.",
+    "step4": "Development",
+    "step4_desc": "Programmers write code according to the established specifications and design. In this phase, all modules and components of the software are developed.",
+    "step5": "Testing",
+    "step5_desc": "The software is tested to find and correct errors or issues. This includes unit testing, integration testing, system testing, and acceptance testing to ensure that the software meets the requirements.",
+    "step6": "Deployment",
+    "step6_desc": "After the software passes the tests and is considered stable, it is released and installed in the production environment. Users can start using it.",
+    "step7": "Maintenance",
+    "step7_desc": "After release, the software may require updates, bug fixes, or improvements. This phase ensures that the software remains functional and relevant over time."
+  },
+
+  "projects": {
+    "projects": "Projects",
+    "desc": "Discover our successful projects and how we have transformed innovative ideas into effective software solutions. Each project reflects our commitment to excellence and client satisfaction.",
+    "p1": "Painting and decorating services for your home and apartment!",
+    "p2": "We produce and export dried plums from Moldova, using the Stanley variety of plums and premium quality fresh fruits.",
+    "p3": "Insurance Consulting and Assistance. We offer solutions in insurance and specialized assistance for all your needs.",
+    "p4": "This company was created to make it easier for you to take care of yourself.",
+    "more": "Our Projects",
+    "details": "Details"
+  },
+
+  "services": {
+    "services": "Services",
+    "desc": "We provide comprehensive solutions for web and mobile development, designed to meet the unique needs of your business.",
+    "more": "More",
+    "stack": "Tech Stack",
+    "stack_desc": "We are a company dedicated to using the latest and most innovative technologies to deliver top-notch solutions.",
+    "front": "Frontend Technologies",
+    "back": "Backend Technologies",
+    "tools": "Tools",
+    "s1": {
+      "t": "Projection",
+      "desc": "We approach each project with an integrated and creative vision, ensuring that every detail is thoughtfully designed and implemented to meet the highest standards of excellence.",
+      "det": "Our design process is centered on innovation, efficiency, and adaptability, aiming to deliver solutions that exceed expectations and align perfectly with your business goals. We transform concepts and prototypes into functional solutions using cutting-edge technologies and agile development methodologies. Each stage of the process is closely monitored to ensure quality and optimal performance of the final product. After implementation, we evaluate the results and gather feedback to identify potential improvements. Continuous optimization allows us to make necessary adjustments and ensure that the project evolves according to market requirements and changes."
+    },
+    "s2": {
+      "t": "UI/UX Design",
+      "desc": "We believe that design is not just about visual appearance but about creating an exceptional user experience that meets the needs and expectations of your users.",
+      "det": "UI design is crucial for attracting and retaining users. We create visually appealing and coherent interfaces that reflect your brand identity and ensure smooth navigation. Whether it's color schemes, typography, or graphical elements, we ensure every detail contributes to an optimal aesthetic and functional experience. Each design we create is tested and evaluated to ensure it meets real user requirements. We use feedback to continuously improve interfaces and experiences, ensuring that the delivered products are not only attractive but also efficient and functional."
+    },
+    "s3": {
+      "t": "Web Development",
+      "desc": "Whether it's a showcase website, a complex platform, or an online store, our approach focuses on performance, aesthetics, and functionality.",
+      "det": "We transform concepts and visual designs into interactive and engaging web interfaces. Using modern technologies such as Node.js, PostgreSQL, and TypeScript, we create websites that not only look good but also function perfectly across all devices and browsers. We focus on creating a pleasant and intuitive user experience, optimized for performance and accessibility. We build the infrastructure needed to support complex website functionalities. From database management and server-side functionality implementation to API integration and security assurance."
+    },
+    "s4": {
+      "t": "Ecommerce",
+      "desc": "We offer customized eCommerce solutions that integrate the best practices in design, technology, and business strategy to create high-performing and efficient eCommerce platforms.",
+      "det": "We develop online stores that are not only attractive but also functional, providing a simple and pleasant shopping experience for your customers. We use popular platforms like Shopify, WooCommerce, Magento, or custom solutions to build stores that meet your business needs and requirements. We ensure regular maintenance and technical support to guarantee that your store operates optimally at all times. From updates and troubleshooting to enhancements and adaptation to market changes, we are here to support you in the long term."
+    },
+    "s5": {
+      "t": "Mobile App Development",
+      "desc": "Whether you need an iOS, Android, or cross-platform app, we are here to create products that meet user needs and business goals.",
+      "det": "We offer mobile app development for both major platforms, iOS and Android. We use the latest technologies and development tools, including Swift and Objective-C for iOS, and Kotlin and Java for Android, to create native apps that work perfectly on your users' devices. To save time and resources, we develop cross-platform mobile apps using technologies such as Flutter or React Native. These solutions allow for the creation of apps that work seamlessly on both iOS and Android platforms from a single codebase, ensuring consistency and efficiency in development."
+    },
+    "s6": {
+      "t": "Marketing and SEO",
+      "desc": "We are dedicated to helping your business reach its full potential in the digital space through personalized marketing and SEO strategies.",
+      "det": "We create and implement social media marketing strategies aimed at increasing engagement and brand awareness. We manage campaigns on popular platforms such as Facebook, Instagram, LinkedIn, and Twitter, using creative content and targeted advertising to build an active and engaged community. We conduct detailed keyword research to identify terms that have the most significant impact on your business. We optimize content and site structure to target these keywords, ensuring that your site appears at the top of relevant search results."
+    },
+    "s7": {
+      "t": "Brand and Logo Design",
+      "desc": "We understand that a strong brand and a memorable logo are essential for the success of any business. We offer branding and logo design services that help your business stand out in the market.",
+      "det": "We create brand strategies that define the vision, mission, and values of your business. We analyze the target audience, competition, and market to develop a brand identity that resonates with customers and aligns with business goals. We start with developing logo concepts based on research and understanding of your business. We consider brand values, target audience, and design trends to create a unique and representative logo. We offer ongoing consultation and support to help implement and manage your brand. We ensure that every aspect of the visual identity is used correctly and effectively to build a strong and recognized brand image."
+    },
+    "s8": {
+      "t": "API Development",
+      "desc": "We offer advanced API (Application Programming Interface) development solutions that enable efficient integration of different systems and applications.",
+      "det": "We start with analyzing your requirements and objectives to understand exactly what functionalities the API should provide. We offer consulting to define technical specifications and develop an API architecture that meets your business needs. We create APIs with well-planned architecture, using best practices to ensure scalability, security, and performance. We focus on creating RESTful, GraphQL, or SOAP APIs depending on your requirements and preferences. We provide detailed and easy-to-understand documentation for the developed APIs, including developer guides and usage examples. We ensure ongoing support to address questions and assist with integration and use of the API."
+    },
+    "s9": {
+      "t": "Automation and Scripting",
+      "desc": "We use advanced automation techniques to reduce repetitive manual tasks, enhance productivity, and improve operational efficiency.",
+      "det": "We start with analyzing business processes to identify repetitive tasks and opportunities for automation. We consider specific requirements and efficiency goals to develop a customized automation strategy. We create custom scripts that automate repetitive tasks and business processes. We use scripting languages such as Python, Bash, PowerShell, and others to develop efficient solutions that meet your specific needs."
+    }
+  },
+
+  "portofolio": {
+    "portofolio": "Portfolio",
+    "desc": "Our portfolio includes a diverse range of innovative projects, from mobile applications and eCommerce platforms to custom software solutions and API development. Each project reflects our commitment to excellence and adaptability."
+  },
+
+  "aboutus": {
+    "who": "Who we are ?",
+    "who_desc": "We are a passionate team of software developers dedicated to innovation and technological excellence. We have extensive experience in creating custom solutions that meet the specific needs of our clients.",
+    "scope": "Our mission",
+    "scope_desc": "Our mission is to turn innovative ideas into high-quality software solutions that deliver real value to our clients. We strive to be trusted partners who provide support and expertise throughout the entire project lifecycle.",
+    "what": "What we do ?",
+    "what_desc": "We specialize in custom software development, including mobile applications, eCommerce platforms, and API solutions. We use cutting-edge technologies and agile methodologies to create efficient solutions that enhance the performance and efficiency of our clients' businesses."
+  },
+
+  "form": {
+    "name": "First Name Last Name",
+    "phone": "Phone",
+    "email": "Email",
+    "desc": "Project Description",
+    "_desc": "Description...",
+    "send": "Send",
+    "country": "Search for a country...",
+    "not_found": "No country found."
+  },
+
+  "more": "more"
+}

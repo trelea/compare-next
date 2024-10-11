@@ -1,0 +1,131 @@
+{
+  "navbar": {
+    "home": "Acasă",
+    "services": "Servicii",
+    "portofolio": "Portofoliu",
+    "aboutus": "Despre noi",
+    "contacts": "Contacte"
+  },
+
+  "footer": {
+    "social": "Social",
+    "contacts": "Contacte",
+    "copyright": "Toate drepturile sunt rezervate.",
+    "love": "Făcut cu <1></1> și <2></2> pentru clienții noștri."
+  },
+
+  "home": {
+    "intro": "Dacă aveți o provocare de afaceri pe care doriți să o abordați cu o soluție web, lăsați-ne să vă orientăm prin opțiunile pe care vi le putem pune la dispoziție.",
+    "start": "Start Proiect",
+    "plans": "Scopurile noastre",
+    "plans_desc": "Ne implicăm în toate etapele dezvoltării software, oferind soluții eficiente și elegant concepute pentru a îmbunătăți procesele zilnice a afacerii voastre.",
+    "step1": "Planificare",
+    "step1_desc": "În această etapă, se stabilește obiectivul proiectului, se definesc cerințele și se fac estimări de timp și costuri. Se creează un plan detaliat care va ghida întregul proces de dezvoltare.",
+    "step2": "Analiza cerințelor",
+    "step2_desc": "Se colectează și se analizează cerințele utilizatorilor și ale sistemului. Acest pas implică interviuri, sondaje și studii pentru a înțelege exact ce trebuie să facă software-ul și cum ar trebui să funcționeze.",
+    "step3": "Proiectare",
+    "step3_desc": "Se creează arhitectura sistemului și designul detaliat al software-ului. Aceasta include proiectarea structurii bazei de date, interfețelor utilizatorului și a componentelor interne ale aplicației.",
+    "step4": "Dezvoltare",
+    "step4_desc": "Programatorii scriu codul conform specificațiilor și designului stabilit. În această fază, se dezvoltă toate modulele și componentele software-ului.",
+    "step5": "Testare",
+    "step5_desc": "Se testează software-ul pentru a găsi și corecta erori sau probleme. Aceasta include testarea unității, testarea integrării, testarea sistemului și testarea acceptării pentru a asigura că software-ul funcționează conform cerințelor.",
+    "step6": "Lansare",
+    "step6_desc": "După ce software-ul a trecut testele și este considerat stabil, acesta este lansat și instalat în mediu de producție. Utilizatorii pot începe să-l folosească.",
+    "step7": "Mentenanță",
+    "step7_desc": "După lansare, software-ul poate necesita actualizări, corecturi de erori sau îmbunătățiri. Această fază asigură că software-ul rămâne funcțional și relevant pe termen lung."
+  },
+
+  "projects": {
+    "projects": "Proiecte",
+    "desc": "Descoperiți proiectele noastre de succes și modul în care am transformat idei inovatoare în soluții software eficiente. Fiecare proiect reflectă angajamentul nostru pentru excelență și satisfacția clientului.",
+    "p1": "Servicii de vopsire și decorare pentru casa și apartamentul dumneavoastră!",
+    "p2": "Producem și exportăm din Republica Moldova prune uscate, utilizând soiul Stanley de prune și fructe proaspete de calitate preimum.",
+    "p3": "Asigurări Consultanță și Asistență. Oferim soluții în asigurări și asistență specializată pentru toate nevoile tale.",
+    "p4": "Această companie a fost creată pentru a face mai ușor să ai grijă de tine.",
+    "more": "Proiectele noastre",
+    "details": "Detalii"
+  },
+
+  "services": {
+    "services": "Servicii",
+    "desc": "Oferim soluții complete pentru dezvoltarea web și mobilă, concepute pentru a răspunde nevoilor unice ale afacerii dumneavoastră.",
+    "more": "Mai multe",
+    "stack": "Tehnologii Utilizate",
+    "stack_desc": "Suntem o companie dedicată utilizării celor mai noi și inovative tehnologii pentru a oferi soluții de vârf.",
+    "front": "Tehnologii Frontend",
+    "back": "Tehnologii Backend",
+    "tools": "Utilități",
+    "s1": {
+      "t": "Proiectare",
+      "desc": "Abordăm fiecare proiect cu o viziune integrată și creativă, asigurându-ne că fiecare detaliu este gândit și implementat pentru a atinge cele mai înalte standarde de excelență.",
+      "det": "Procesul nostru de proiectare este centrat pe inovație, eficiență și adaptabilitate, având ca scop livrarea unor soluții care depășesc așteptările și se aliniează perfect cu obiectivele dumneavoastră de afaceri. Transformăm conceptele și prototipurile în soluții funcționale, folosind tehnologii de vârf și metodologii de dezvoltare agile. Fiecare etapă a procesului este monitorizată cu atenție pentru a asigura calitatea și performanța optimă a produsului final. După implementare, evaluăm rezultatele și adunăm feedback pentru a identifica eventualele îmbunătățiri. Procesul de optimizare continuă ne permite să facem ajustări necesare și să ne asigurăm că proiectul evoluează conform cerințelor și schimbărilor din piață."
+    },
+    "s2": {
+      "t": "UI/UX Design",
+      "desc": "Credem că designul nu este doar despre aspectul vizual, ci despre crearea unei experiențe de utilizator excepționale care să răspundă nevoilor și așteptărilor utilizatorilor dumneavoastră.",
+      "det": "Designul UI este esențial pentru atragerea utilizatorilor și menținerea interesului acestora. Creăm interfețe vizuale atractive și coerente care reflectă identitatea brandului dumneavoastră și asigură o navigare fluidă. Fie că este vorba de schema de culori, tipografie sau elemente grafice, ne asigurăm că fiecare detaliu contribuie la o experiență estetică și funcțională optimă. Fiecare design pe care îl realizăm este testat și evaluat pentru a ne asigura că răspunde cerințelor reale ale utilizatorilor. Folosim feedback-ul primit pentru a îmbunătăți continuu interfețele și experiențele, asigurându-ne că produsele livrate sunt nu doar atractive, ci și eficiente și funcționale."
+    },
+    "s3": {
+      "t": "Dezvoltare Web",
+      "desc": "Fie că este vorba de un site web de prezentare, o platformă complexă sau un magazin online, abordarea noastră se axează pe performanță, estetică și funcționalitate.",
+      "det": "Transformăm concepte și designuri vizuale în interfețe web interactive și captivante. Folosind tehnologii moderne precum Nodejs, PostgreSQL și Typescript, creăm site-uri care nu doar arată bine, dar funcționează perfect pe toate dispozitivele și browserele. Ne concentrăm pe crearea unei experiențe de utilizare plăcute și intuitive, optimizată pentru performanță și accesibilitate. Construim infrastructura necesară pentru a susține funcționalitatea site-urilor web complexe. De la gestionarea bazelor de date și implementarea funcționalităților server-side, până la integrarea API-urilor și asigurarea securității."
+    },
+    "s4": {
+      "t": "Ecommerce",
+      "desc": "Oferim soluții eCommerce personalizate, care integrează cele mai bune practici de design, tehnologie și strategie de afaceri pentru a crea platforme de comerț electronic performante și eficiente.",
+      "det": "Dezvoltăm magazine online care sunt nu doar atractive, dar și funcționale, oferind o experiență de cumpărare simplă și plăcută pentru clienții dumneavoastră. Utilizăm platforme populare precum Shopify, WooCommerce, Magento sau soluții personalizate pentru a construi magazine care să corespundă nevoilor și cerințelor afacerii dumneavoastră. Asigurăm mentenanță regulată și suport tehnic pentru a garanta că magazinul dumneavoastră funcționează optim în orice moment. De la actualizări și soluționarea problemelor tehnice până la îmbunătățiri și adaptări la schimbările de piață, suntem aici pentru a vă sprijini pe termen lung."
+    },
+    "s5": {
+      "t": "Dezvoltare aplicații mobile",
+      "desc": "Indiferent dacă aveți nevoie de o aplicație iOS, Android sau multiplatformă, suntem aici pentru a crea produse care să răspundă nevoilor utilizatorilor și obiectivelor de afaceri.",
+      "det": "Oferim dezvoltare de aplicații mobile pentru ambele platforme majore, iOS și Android. Utilizăm cele mai recente tehnologii și instrumente de dezvoltare, inclusiv Swift și Objective-C pentru iOS, și Kotlin și Java pentru Android, pentru a crea aplicații native care funcționează perfect pe dispozitivele utilizatorilor dumneavoastră. Pentru a economisi timp și resurse, dezvoltăm aplicații mobile multiplatformă utilizând tehnologii precum Flutter sau React Native. Aceste soluții permit crearea de aplicații care funcționează impecabil pe ambele platforme, iOS și Android, dintr-o singură bază de cod, asigurând consistență și eficiență în dezvoltare."
+    },
+    "s6": {
+      "t": "Marketing și SEO",
+      "desc": "Suntem dedicați să ajutăm afacerea dumneavoastră să își atingă potențialul maxim în mediul digital prin strategii de marketing și optimizare SEO personalizate.",
+      "det": "Creăm și implementăm strategii de marketing pe rețele sociale care vizează creșterea angajamentului și a notorietății brandului. Gestionăm campanii pe platforme populare precum Facebook, Instagram, LinkedIn și Twitter, folosind conținut creativ și publicitate targetată pentru a construi o comunitate activă și implicată. Realizăm o cercetare detaliată a cuvintelor cheie pentru a identifica termenii care au cel mai mare impact asupra afacerii dumneavoastră. Optimizăm conținutul și structura site-ului pentru a viza aceste cuvinte cheie, asigurându-ne că site-ul dumneavoastră apare în topul rezultatelor căutărilor relevante."
+    },
+    "s7": {
+      "t": "Brand și Logo Design",
+      "desc": "înțelegem că un brand puternic și un logo memorabil sunt esențiale pentru succesul oricărei afaceri. Oferim servicii de branding și design de logo-uri care ajută afacerea dumneavoastră să se diferențieze pe piață.",
+      "det": "Creăm strategii de brand care definesc viziunea, misiunea și valorile afacerii dumneavoastră. Analizăm publicul țintă, concurența și piața pentru a dezvolta o identitate de brand care să rezoneze cu clienții și să se alinieze cu obiectivele afacerii. Începem cu dezvoltarea conceptelor de logo bazate pe cercetarea și înțelegerea afacerii dumneavoastră. Luăm în considerare valorile brandului, publicul țintă și tendințele de design pentru a crea un logo unic și reprezentativ. Oferim consultanță continuă și suport pentru a ajuta la implementarea și gestionarea brandului dumneavoastră. Ne asigurăm că fiecare aspect al identității vizuale este utilizat corect și eficient pentru a construi o imagine de marcă solidă și recunoscută."
+    },
+    "s8": {
+      "t": "Dezvoltare APIs",
+      "desc": "Oferim soluții avansate de dezvoltare API (Application Programming Interface) care permit integrarea eficientă a diferitelor sisteme și aplicații.",
+      "det": "Începem cu analiza cerințelor și obiectivelor dumneavoastră pentru a înțelege exact ce funcționalități trebuie să ofere API-ul. Oferim consultanță pentru a defini specificațiile tehnice și a dezvolta o arhitectură API care să răspundă nevoilor afacerii dumneavoastră. Creăm API-uri cu o arhitectură bine planificată, utilizând cele mai bune practici pentru a asigura scalabilitatea, securitatea și performanța. Ne axăm pe crearea de API-uri RESTful, GraphQL sau SOAP, în funcție de cerințele și preferințele dumneavoastră. Oferim documentație detaliată și ușor de înțeles pentru API-urile dezvoltate, inclusiv ghiduri pentru dezvoltatori și exemple de utilizare. Asigurăm suport continuu pentru a răspunde întrebărilor și pentru a ajuta la integrarea și utilizarea API-ului."
+    },
+    "s9": {
+      "t": "Automatizare și Scripting",
+      "desc": "Utilizăm tehnici avansate de automatizare pentru a reduce sarcinile manuale repetitive, a spori productivitatea și a îmbunătăți eficiența operațiunilor.",
+      "det": "Începem cu analiza proceselor de afaceri pentru a identifica sarcinile repetitive și oportunitățile de automatizare. Luăm în considerare cerințele specifice și obiectivele de eficiență pentru a dezvolta o strategie de automatizare personalizată. Creăm scripturi personalizate care automatizează sarcinile repetitive și procesele de afaceri. Utilizăm limbaje de scripting precum Python, Bash, PowerShell și altele pentru a dezvolta soluții eficiente care să răspundă nevoilor dumneavoastră specifice."
+    }
+  },
+
+  "portofolio": {
+    "portofolio": "Portofoliu",
+    "desc": "Portofoliul nostru include o gamă variată de proiecte inovatoare, de la aplicații mobile și platforme eCommerce până la soluții personalizate de software și dezvoltare API. Fiecare proiect reflectă angajamentul nostru pentru excelență și adaptabilitate."
+  },
+
+  "aboutus": {
+    "who": "Cine suntem ?",
+    "who_desc": "Suntem o echipă pasionată de dezvoltatori de software, dedicați inovației și excelenței tehnologice. Avem o experiență vastă în crearea de soluții personalizate care răspund nevoilor specifice ale clienților noștri",
+    "scope": "Scopul nostru",
+    "scope_desc": "Scopul nostru este de a transforma ideile inovatoare în soluții software de înaltă calitate care generează valoare reală pentru clienții noștri. Ne străduim să fim partenerii de încredere care oferă suport și expertiză pe parcursul întregului ciclu de viață al proiectelor",
+    "what": "Cu ce ne ocupăm ?",
+    "what_desc": "Ne specializăm în dezvoltarea de software personalizat, inclusiv aplicații mobile, platforme eCommerce și soluții API. Utilizăm tehnologii de vârf și metodologii agile pentru a crea soluții eficiente care îmbunătățesc performanța și eficiența afacerilor clienților noștri."
+  },
+
+  "form": {
+    "name": "Numele Prenumele",
+    "phone": "Telefon",
+    "email": "Email",
+    "desc": "Descrierea Proiectului",
+    "_desc": "Descriere...",
+    "send": "Trimite",
+    "country": "Caută țara...",
+    "not_found": "Nicio țară găsită."
+  },
+
+  "more": "Mai multe"
+}
