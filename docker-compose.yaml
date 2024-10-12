@@ -1,0 +1,16 @@
+services:
+  nextjs:
+    build: .
+    container_name: compare-nextjs
+    restart: always
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    ports:
+      - '80:80'
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - nextjs
+    restart: always
