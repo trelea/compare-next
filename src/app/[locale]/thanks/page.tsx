@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import React from 'react';
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: 'Thanks',
 };
 
