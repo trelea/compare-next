@@ -7,6 +7,11 @@ import bsv from '@/assets/projects/bsv.png';
 import genasig from '@/assets/projects/genasig.png';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Projects',
+};
 
 export default function Portofolio() {
   const t = useTranslations();
@@ -14,12 +19,12 @@ export default function Portofolio() {
     <div className='relative px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-60 z-30 flex flex-col gap-40 py-40'>
       <div className='flex flex-col gap-10'>
         <BoxReveal boxColor='#106448' duration={0.25}>
-          <h1 className='text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold bg-gradient-to-r from-primary to-foreground text-transparent bg-clip-text inline-block'>
+          <h1 className='text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl font-bold bg-gradient-to-r from-primary to-foreground text-transparent bg-clip-text inline-block'>
             {t('portofolio.portofolio')}
           </h1>
         </BoxReveal>
         <BoxReveal boxColor='#106448' duration={0.5}>
-          <p className='text-lg md:text-xl lg:text-2xl 2xl:text-3xl text-foreground font-medium lg:w-1/2'>
+          <p className='text-base md:text-lg lg:text-xl 2xl:text-2xl text-foreground font-medium lg:w-1/2'>
             {t('portofolio.desc')}
           </p>
         </BoxReveal>
@@ -28,7 +33,7 @@ export default function Portofolio() {
             <ShimmerButton
               background='#106448'
               shimmerSize='1px'
-              className='text-lg md:text-xl lg:text-2xl 2xl:text-3xl font-medium px-10 shadow-2xl text-foreground'
+              className='text-base md:text-lg lg:text-xl 2xl:text-2xl font-medium px-10 shadow-2xl text-foreground'
             >
               {t('home.start')}
             </ShimmerButton>

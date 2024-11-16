@@ -35,7 +35,7 @@ export const PlanStep: React.FC<Props> = ({ nr, description, icon, image }) => {
             </div>
 
             <p
-              className={`text-base md:text-lg xl:text-xl font-medium ${
+              className={`text-sm md:text-base xl:text-lg font-medium ${
                 nr === 2 || nr === 4 || nr === 6 ? 'text-foreground' : ''
               } ${
                 nr === 1 || nr === 3 || nr === 5 || nr === 7 ? 'text-card' : ''

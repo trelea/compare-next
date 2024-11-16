@@ -17,12 +17,12 @@ export const Projects: React.FC = () => {
     <div className='w-full flex flex-col relative justify-center items-center px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-60 z-30'>
       <div className='flex flex-col gap-10'>
         <BoxReveal boxColor='#106448' duration={0.25}>
-          <h1 className='text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold bg-gradient-to-r from-primary to-foreground text-transparent bg-clip-text inline-block'>
+          <h1 className='text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl font-bold bg-gradient-to-r from-primary to-foreground text-transparent bg-clip-text inline-block'>
             {t('projects.projects')}
           </h1>
         </BoxReveal>
         <BoxReveal boxColor='#106448' duration={0.5}>
-          <p className='text-lg md:text-xl lg:text-2xl 2xl:text-3xl text-foreground font-medium lg:w-1/2'>
+          <p className='text-base md:text-lg lg:text-xl 2xl:text-2xl text-foreground font-medium lg:w-1/2'>
             {t('projects.desc')}
           </p>
         </BoxReveal>

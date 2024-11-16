@@ -1,8 +1,13 @@
 'use client';
 import BlurFade from '@/components/magicui/blur-fade';
 import { CircleCheckBig } from 'lucide-react';
+import { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import React from 'react';
+
+export const metadata: Metadata = {
+  title: 'Thanks',
+};
 
 export default function Thanks() {
   const t = useTranslations();

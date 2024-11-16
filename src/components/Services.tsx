@@ -70,12 +70,12 @@ export const Services: React.FC<Props> = ({ onlyCards }) => {
 
           <div className='flex flex-col gap-10 lg:w-1/2'>
             <BoxReveal boxColor='#106448' duration={0.25}>
-              <h1 className='text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold bg-gradient-to-r from-primary to-foreground text-transparent bg-clip-text inline-block'>
+              <h1 className='text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl font-bold bg-gradient-to-r from-primary to-foreground text-transparent bg-clip-text inline-block'>
                 {t('services.services')}
               </h1>
             </BoxReveal>
             <BoxReveal boxColor='#106448' duration={0.5}>
-              <p className='text-lg md:text-xl lg:text-2xl 2xl:text-3xl text-foreground font-medium'>
+              <p className='text-md md:text-lg lg:text-xl 2xl:text-2xl text-foreground font-medium'>
                 {t('services.desc')}
               </p>
             </BoxReveal>

@@ -13,17 +13,16 @@ import { Heart, Laptop } from 'lucide-react';
 // import { Trans,  } from "next-intl";
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import logo from '@/assets/logo/Horizontal Gradient.svg';
+import Image from 'next/image';
 
 export const Footer: React.FC = () => {
   const t = useTranslations();
   return (
     <footer className='bg-background/100 relative z-40 shadow-primary shadow-2xl px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-60'>
-      <div className='grid grid-cols-2 gap-10 md:flex flex-row justify-between py-10'>
-        <div className='col-span-2 w-full flex flex-col items-center gap-3'>
-          <SiJavascript className='h-20 w-20' />
-          <h1 className='text-2xl md:text-3xl font-bold bg-gradient-to-r from-primary to-foreground text-transparent bg-clip-text inline-block'>
-            Logo
-          </h1>
+      <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:flex flex-row justify-between py-10'>
+        <div className='w-full flex justify-center items-center bg-gradient-to-r from-primary to-foreground rounded-lg h-fit p-2'>
+          <Image src={logo} alt='Dev Compare Logo' height={250} width={250} />
         </div>
 
         <div className='w-full'>

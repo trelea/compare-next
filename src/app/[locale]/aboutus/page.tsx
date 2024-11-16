@@ -4,6 +4,11 @@ import { WobbleCard } from '@/components/ui/wobble-card';
 import Image from 'next/image';
 import team from '@/assets/images/hero2.png';
 import { useTranslations } from 'next-intl';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About Us',
+};
 
 export default function Aboutus() {
   const t = useTranslations();

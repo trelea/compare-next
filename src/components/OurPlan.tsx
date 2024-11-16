@@ -10,13 +10,13 @@ import {
   ServerCog,
   TabletSmartphone,
 } from 'lucide-react';
-import planning from '@/assets/images/planing.png';
-import analysis from '@/assets/images/analysis.png';
-import design from '@/assets/images/designing.png';
-import develop from '@/assets/images/developing.png';
-import testing from '@/assets/images/qa.png';
-import deploy from '@/assets/images/deployment.png';
-import maintain from '@/assets/images/maintenance.png';
+import planning from '@/assets/images/2.png';
+import analysis from '@/assets/images/3.png';
+import design from '@/assets/images/4.png';
+import develop from '@/assets/images/5.png';
+import testing from '@/assets/images/6.png';
+import deploy from '@/assets/images/7.png';
+import maintain from '@/assets/images/8.png';
 import { PlanStep } from './PlanStep';
 import { StaticImageData } from 'next/image';
 import { useTranslations } from 'next-intl';
@@ -76,12 +76,12 @@ export const OurPlan: React.FC = () => {
       <div className='flex flex-col gap-20'>
         <div className='flex flex-col gap-10'>
           <BoxReveal boxColor='#106448' duration={0.25}>
-            <h1 className='text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold bg-gradient-to-r from-primary to-foreground text-transparent bg-clip-text inline-block'>
+            <h1 className='text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl font-bold bg-gradient-to-r from-primary to-foreground text-transparent bg-clip-text inline-block'>
               {t('home.plans')}
             </h1>
           </BoxReveal>
           <BoxReveal boxColor='#106448' duration={0.5}>
-            <p className='text-lg md:text-xl lg:text-2xl 2xl:text-3xl text-foreground font-medium lg:w-1/2'>
+            <p className='text-base md:text-lg lg:text-xl 2xl:text-2xl text-foreground font-medium lg:w-1/2'>
               {t('home.plans_desc')}
             </p>
           </BoxReveal>

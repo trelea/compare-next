@@ -1,5 +1,6 @@
 import Form from '@/components/Form';
 import { HoverEffect } from '@/components/ui/card-hover-effect';
+import { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import React from 'react';
 import {
@@ -10,6 +11,10 @@ import {
   FaSquareTwitter,
 } from 'react-icons/fa6';
 import { IoIosMail } from 'react-icons/io';
+
+export const metadata: Metadata = {
+  title: 'Contacts',
+};
 
 export default function Contacts() {
   const t = useTranslations();

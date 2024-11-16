@@ -7,6 +7,8 @@ import { BlurNavigation } from './BlurNavigation';
 import { BlurLang } from './BlurLang';
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
+import logo from '@/assets/logo/Black.svg';
+import Image from 'next/image';
 
 export const Navbar: React.FC = () => {
   const t = useTranslations();
@@ -22,7 +24,7 @@ export const Navbar: React.FC = () => {
       <nav className='fixed z-40 w-full px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-60 pt-4'>
         <div className='flex justify-between items-center bg-primary shadow-2xl px-6 border border-white border-opacity-25 rounded-full py-2 shadow-primary/20'>
           <Link href={'/'}>
-            <SiJavascript className='h-10 w-10 bg-white text-black' />
+            <Image src={logo} alt='Dev Compare Logo' height={40} />
           </Link>
 
           <Menu
