@@ -1,19 +1,19 @@
-import createMiddleware from 'next-intl/middleware';
-import { routing } from './i18n/routing';
+import createMiddleware from "next-intl/middleware";
+import { routing } from "./i18n/routing";
 
 export default createMiddleware({
   // A list of all locales that are supported
-  locales: ['ro', 'en', 'ru'],
+  locales: ["ro", "en", "ru"],
   alternateLinks: false,
   // Used when no locale matches
-  defaultLocale: 'ro',
+  defaultLocale: "ro",
   localeDetection: false,
 });
 
 export const config = {
   // Match only internationalized pathnames
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico).*)',
-    '/(ro|ru|en)/:path*',
+    "/((?!api|_next/static|_next/image|favicon.ico|sitemap.*).*)",
+    "/(ro|ru|en)/:path*",
   ],
 };
