@@ -95,7 +95,7 @@ export const Navbar: React.FC = () => {
             </li>
             <li onClick={() => setLang(true)}>
               <FadeText
-                className='text-base font-bold text-foreground bg-zinc-800 p-1 px-2 rounded-full'
+                className='text-base font-bold text-foreground bg-zinc-800 p-1 px-2 rounded-full hover:cursor-pointer'
                 direction='up'
                 framerProps={{
                   show: { transition: { delay: 0.1 * 6 } },

@@ -56,7 +56,7 @@ export const Footer: React.FC = () => {
           <ul className='flex flex-col text-lg md:text-xl text-foreground font-normal gap-3 mt-3'>
             <li className='flex items-center gap-2 hover:underline'>
               <FaSquarePhone />
-              <p>+373 067000111</p>
+              <p>+373 62 114 520</p>
             </li>
             <li className='flex items-center gap-2 hover:underline'>
               <IoIosMail />

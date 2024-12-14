@@ -16,7 +16,12 @@ export const BlurLang: React.FC<Props> = ({ setLang }) => {
       </div>
 
       <div className='flex gap-6'>
-        <BlurFade inView delay={0.2} duration={0.1 * 1}>
+        <BlurFade
+          inView
+          delay={0.2}
+          duration={0.1 * 1}
+          className='hover:cursor-pointer'
+        >
           <div
             className={`px-6 p-4 rounded-xl ${
               locale === 'ro'
@@ -36,7 +41,12 @@ export const BlurLang: React.FC<Props> = ({ setLang }) => {
           </div>
         </BlurFade>
 
-        <BlurFade inView delay={0.2} duration={0.1 * 3}>
+        <BlurFade
+          inView
+          delay={0.2}
+          duration={0.1 * 3}
+          className='hover:cursor-pointer'
+        >
           <div
             className={`px-6 p-4 rounded-xl ${
               locale === 'ru'
@@ -56,7 +66,12 @@ export const BlurLang: React.FC<Props> = ({ setLang }) => {
           </div>
         </BlurFade>
 
-        <BlurFade inView delay={0.2} duration={0.1 * 5}>
+        <BlurFade
+          inView
+          delay={0.2}
+          duration={0.1 * 5}
+          className='hover:cursor-pointer'
+        >
           <div
             className={`px-6 p-4 rounded-xl ${
               locale === 'en'

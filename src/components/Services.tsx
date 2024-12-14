@@ -109,7 +109,7 @@ export const Services: React.FC<Props> = ({ onlyCards }) => {
               <Dialog>
                 <DialogTrigger className='flex justify-end items-end w-full'>
                   <ShinyButton
-                    text={'more'}
+                    text={t('more')}
                     className='text-foreground font-medium flex items-center justify-center shadow-2xl'
                   />
                 </DialogTrigger>
